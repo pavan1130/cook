@@ -1,0 +1,336 @@
+/* 1st Section screen  start page  css code*/
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.imageContainer {
+  flex: 1;
+}
+
+.imageContainer img {
+  max-width: 100%;
+  height: 80vh;
+  width: 80vh;
+  position: relative;
+  left: 10%;
+}
+
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.textContainer h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  color: #6f5422;
+}
+
+.registerButton {
+  padding: 10px 20px;
+  font-size: 19px;
+  background-color: orange;
+  color: white;
+  border: none;
+  width: 50vh;
+  border-radius: 5px;
+  position: relative;
+  left: 28%;
+}
+
+.registerButton:hover {
+  background-color: darkorange;
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.languageLinkEnglish {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid #fadbdb;
+  border-radius: 5px;
+  margin-top: 15px;
+  background-color: #ffffff;
+  color: blue;
+  width: 10vh;
+  transition: background-color 0.3s ease;
+  position: relative;
+  left: 50%;
+  top: -13px;
+}
+
+.languageLinkHindi {
+  position: relative;
+  left: 30%;
+  top: 43px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid #fadbdb;
+  border-radius: 5px;
+  margin-top: 15px;
+  color: blue;
+  width: 10vh;
+  transition: background-color 0.3s ease;
+  background-color: #ffffff;
+}
+
+.languageLink:hover {
+  background-color: #e0e0e0;
+}
+
+/* 2nd screen start Benefits  page  css code */
+.heading {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10vh;
+  font-family: "Roboto", sans-serif;
+  color: #85633a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold; /* Added font weight */
+  text-decoration: underline rgb(252, 213, 195); /* Added text underline */
+  line-height: 1.2; /* Added line height */
+}
+
+.benefitsList {
+  list-style: none;
+  padding-left: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -10vh;
+}
+
+.benefitsList li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-basis: calc(33.33% - 10px);
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+  color: #555;
+  margin-top: 50px;
+}
+
+.icon {
+  margin-right: 40px;
+  width: 50px;
+  height: 50px;
+}
+
+.iconClock {
+  color: #007bff;
+}
+
+.iconChart {
+  color: #ff9800;
+}
+
+.iconHeart {
+  color: #f44336;
+}
+
+.iconMoneyCheck {
+  color: #9c27b0;
+}
+
+.iconUsers {
+  color: #795548;
+}
+
+.iconGlobe {
+  color: #03a9f4;
+}
+
+.testimonialsContainer {
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* 3rd screen start Testimonials page  css code */
+.heading {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  color: #85633a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -10vh;
+}
+
+.testimonialCard {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.testimonialCard:hover {
+  transform: translateY(-5px);
+}
+
+.testimonialImage {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonialReview {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #000000;
+  font-family: "Arial", sans-serif; /* Updated font family */
+}
+
+.testimonialName {
+  font-weight: bold;
+  color: #85633a;
+  font-size: 20px;
+  font-family: "Arial", sans-serif; /* Updated font family */
+}
+
+/* 4th screen starting  Download COOX Partner App page  css code  */
+.appContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer {
+  width: 50%;
+  padding: 20px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #6f5422;
+  font-family: "Arial", sans-serif; /* Added font family */
+  position: relative;
+  left: 15vh;
+}
+
+.description {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Arial", sans-serif; /* Added font family */
+  margin-top: 10px;
+  position: relative;
+  top: -10px;
+  line-height: 1.4; /* Added line height */
+  text-align: justify; /* Added text alignment */
+}
+
+.image1 {
+  width: 200px; /* Modify the width of the image */
+  height: 100px; /* Modify the height of the image */
+  border: 1px solid rgb(218, 172, 172);
+  border-radius: 5px;
+  position: relative;
+  top: 5vh;
+  left: 30%;
+}
+
+/* 5th screen  FAQ starting page  css code */
+
+.faqContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 10vh;
+  font-family: Arial, sans-serif; /* Add desired font family */
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.columnContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Add margin top for spacing */
+}
+
+.column {
+  width: 45%; /* Adjust the width as needed */
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif; /* Add desired font family */
+  font-weight: bold; /* Add desired font weight */
+  margin-top: 0; /* Remove default margin top for proper alignment */
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  line-height: 1.4; /* Add desired line height */
+  font-family: Arial, sans-serif; /* Add desired font family */
+  color: #333333; /* Add desired text color */
+  margin-top: 0; /* Remove default margin top for proper alignment */
+}
+
+.icon {
+  margin-right: 5px; /* Add desired spacing between icon and text */
+  width: 5vh;
+}
+
+.registerButton_last {
+  position: relative;
+  left: 45%;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ff7f00; /* Set the desired orange color */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.registerButton_last:hover {
+  background-color: #ff9933; /* Set the desired hover background color */
+}
